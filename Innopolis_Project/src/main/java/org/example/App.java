@@ -1,19 +1,15 @@
 package org.example;
 
-import binar_Cod.ConvertBinCod;
+import abstraction.model.Cat;
+import abstraction.model.Human;
+import org.w3c.dom.ls.LSOutput;
 
 /**
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        int number = ConvertBinCod.convertBinaryToDecimal("100110");
-        System.out.println(number);
-        int number2 = 110;
-        String binary = ConvertBinCod.convertDecimalToBinary(number2);
-        System.out.println(binary);
+public class App{
+    public static void main( String[] args ){
+       Test2 t = new Test2();
     }
 }
